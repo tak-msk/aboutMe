@@ -1,0 +1,62 @@
+@charset "Shift_JIS";
+
+/*==========================
+  for All
+==========================*/
+*{
+    margin:0; padding:0; /*全要素のマージン・パディングをリセット*/
+    line-height:1.5; /*全要素の行の高さを1.5倍にする*/
+    color:#888888; /*文字色*/
+}
+body{
+    background-color:#000000;  /*ページ全体の背景色*/
+    text-align:center;  /*IE6以下でセンタリングするための対策*/
+}
+article#profile{
+    display: table;
+    margin: 0 auto;
+}
+/*==========================
+ *   for Global Navigation
+ *==========================*/
+header nav#globalnavi{
+    height: 40px;
+    background-color: #333333;
+}
+a#title{
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    height: 40px;
+    text-decoration: none;
+    font-size: 150%;
+    font-weight: bold;
+    font-family: Comic Dans MS,cursive;
+}
+#globalnavi ul{
+    list-style-type: none;
+    padding: 0;
+}
+#globalnavi li{
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100px;
+}
+#globalnavi a{
+    text-align: center;
+    display: block;
+    padding: 0.5em 0;
+    width: 100%;
+    text-decoration: none;
+    color: #888888;
+}
+#globalnavi a:hover {
+    color: #ffffff; 
+}
+
+#myname{
+    clear: both;
+    padding: 15px 0px;
+}
